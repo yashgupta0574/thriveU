@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.heading {
+    color: rgb(241, 0, 0);
+    font-weight: 700;
+    font-family: sans-serif;
+    letter-spacing: 0.06em;
+}
+
+.components {
+    color: rgb(204, 90, 90);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#main-logo {
+    border-radius: 5px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+}
+
+.st-body {
+    background-color: rgba(173, 216, 230, 0.315);
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.submit-btn {
+    background-color: rgb(20, 241, 38);
+    width: 50%;
+    text-align: center;
+    padding: 1px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.form-entry {
+    border: rgb(173, 216, 230);
+    border-width: 10px;
+    padding: 20px;
+    border-style: outset;
+    border-radius: 20px;
+    background-color: rgba(173, 216, 230, 0.63);
+}
+
+.suggestions1 {
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.479);
+}
+
+#display-total1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.card {
+    margin-top: 2px;
+    max-width: 19rem;
+    border-radius: 15px;
+}
+
+.colmn {
+    width: 30;
+}
+
+.start {
+    margin-left: 17%;
+    /* margin-right: 100px; */
+    margin-top: 10px;
+    column-gap: 20px;
+}
+
+#display-total {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h1 {
+    color: crimson;
+}
+
+.title {
+    font-size: 100px;
+    text-align: center;
+}
+
+.sym-col {
+    color: rgb(235, 0, 0);
+    font-size: 50px;
+}
+
+.gender-label {
+    color: rgb(144, 61, 240);
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.gender-label div {
+    color: rgb(59, 85, 97);
+    font-size: large;
+}
+
+#inputHeight,
+#inputWeight {
+    width: 20%;
+}
+
+#bmi {
+    font-size: 5-rem;
+}
+
+.final {
+    text-align: center;
+    margin-left: 650px;
+    padding: 10px;
+    letter-spacing: 1px;
+    background-color: rgb(13, 224, 13);
+    border-radius: 8px;
+    width: 110px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#final-suggestions {
+    text-align: center;
+    color: firebrick;
+    font-size: 4rem;
+    /* margin-left: 590px; */
+    font-weight: 900;
+}
+
+#final-calorie {
+    font-weight: 800;
+    margin-top: 40px;
+    font-size: 40px;
+    margin-left: 400px;
+    color: goldenrod;
+}
